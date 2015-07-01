@@ -15,6 +15,12 @@
 		F1CFDE9F1B4387E200ABEFF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CFDE9E1B4387E200ABEFF1 /* Images.xcassets */; };
 		F1CFDEA21B4387E200ABEFF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CFDEA01B4387E200ABEFF1 /* LaunchScreen.xib */; };
 		F1CFDEAE1B4387E200ABEFF1 /* FLCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFDEAD1B4387E200ABEFF1 /* FLCoreDataTests.m */; };
+		F1CFDEBD1B438B1600ABEFF1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFDEBA1B438B1600ABEFF1 /* FBSDKCoreKit.framework */; };
+		F1CFDEBE1B438B1600ABEFF1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFDEBB1B438B1600ABEFF1 /* FBSDKLoginKit.framework */; };
+		F1CFDEBF1B438B1600ABEFF1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFDEBC1B438B1600ABEFF1 /* FBSDKShareKit.framework */; };
+		F1CFDEC71B438E2300ABEFF1 /* CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFDEC61B438E2300ABEFF1 /* CoreData.m */; };
+		F1CFDED91B43A3EA00ABEFF1 /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFDED81B43A3EA00ABEFF1 /* Friends.m */; };
+		F1CFDEDC1B43A44F00ABEFF1 /* FriendsData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFDEDB1B43A44F00ABEFF1 /* FriendsData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +37,26 @@
 		F1CFDE8B1B4387E200ABEFF1 /* FLCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFDE8F1B4387E200ABEFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1CFDE901B4387E200ABEFF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1CFDE921B4387E200ABEFF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F1CFDE931B4387E200ABEFF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1CFDE921B4387E200ABEFF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FLCoreData/AppDelegate.h; sourceTree = "<group>"; };
+		F1CFDE931B4387E200ABEFF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FLCoreData/AppDelegate.m; sourceTree = "<group>"; };
 		F1CFDE961B4387E200ABEFF1 /* FLCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FLCoreData.xcdatamodel; sourceTree = "<group>"; };
-		F1CFDE981B4387E200ABEFF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1CFDE991B4387E200ABEFF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1CFDE981B4387E200ABEFF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FLCoreData/ViewController.h; sourceTree = "<group>"; };
+		F1CFDE991B4387E200ABEFF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FLCoreData/ViewController.m; sourceTree = "<group>"; };
 		F1CFDE9C1B4387E200ABEFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1CFDE9E1B4387E200ABEFF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F1CFDEA11B4387E200ABEFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F1CFDEA71B4387E200ABEFF1 /* FLCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFDEAC1B4387E200ABEFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1CFDEAD1B4387E200ABEFF1 /* FLCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCoreDataTests.m; sourceTree = "<group>"; };
+		F1CFDEBA1B438B1600ABEFF1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F1CFDEBB1B438B1600ABEFF1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F1CFDEBC1B438B1600ABEFF1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F1CFDEC51B438E2300ABEFF1 /* CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreData.h; sourceTree = "<group>"; };
+		F1CFDEC61B438E2300ABEFF1 /* CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreData.m; sourceTree = "<group>"; };
+		F1CFDED71B43A3EA00ABEFF1 /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		F1CFDED81B43A3EA00ABEFF1 /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
+		F1CFDEDA1B43A44F00ABEFF1 /* FriendsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsData.h; sourceTree = "<group>"; };
+		F1CFDEDB1B43A44F00ABEFF1 /* FriendsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CFDEBE1B438B1600ABEFF1 /* FBSDKLoginKit.framework in Frameworks */,
+				F1CFDEBD1B438B1600ABEFF1 /* FBSDKCoreKit.framework in Frameworks */,
+				F1CFDEBF1B438B1600ABEFF1 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +83,10 @@
 		F1CFDE821B4387E200ABEFF1 = {
 			isa = PBXGroup;
 			children = (
+				F1CFDEB71B438A6A00ABEFF1 /* Classes */,
 				F1CFDE8D1B4387E200ABEFF1 /* FLCoreData */,
 				F1CFDEAA1B4387E200ABEFF1 /* FLCoreDataTests */,
+				F1CFDEC01B438B1F00ABEFF1 /* Frameworks */,
 				F1CFDE8C1B4387E200ABEFF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,15 +103,13 @@
 		F1CFDE8D1B4387E200ABEFF1 /* FLCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				F1CFDE921B4387E200ABEFF1 /* AppDelegate.h */,
-				F1CFDE931B4387E200ABEFF1 /* AppDelegate.m */,
-				F1CFDE981B4387E200ABEFF1 /* ViewController.h */,
-				F1CFDE991B4387E200ABEFF1 /* ViewController.m */,
 				F1CFDE9B1B4387E200ABEFF1 /* Main.storyboard */,
 				F1CFDE9E1B4387E200ABEFF1 /* Images.xcassets */,
 				F1CFDEA01B4387E200ABEFF1 /* LaunchScreen.xib */,
 				F1CFDE951B4387E200ABEFF1 /* FLCoreData.xcdatamodeld */,
 				F1CFDE8E1B4387E200ABEFF1 /* Supporting Files */,
+				F1CFDED71B43A3EA00ABEFF1 /* Friends.h */,
+				F1CFDED81B43A3EA00ABEFF1 /* Friends.m */,
 			);
 			path = FLCoreData;
 			sourceTree = "<group>";
@@ -120,6 +138,55 @@
 				F1CFDEAC1B4387E200ABEFF1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1CFDEB71B438A6A00ABEFF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFDE921B4387E200ABEFF1 /* AppDelegate.h */,
+				F1CFDE931B4387E200ABEFF1 /* AppDelegate.m */,
+				F1CFDEB81B438A8900ABEFF1 /* Home */,
+				F1CFDEB91B438A9100ABEFF1 /* Friends */,
+				F1CFDEC41B438E0700ABEFF1 /* CoreData */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F1CFDEB81B438A8900ABEFF1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFDE981B4387E200ABEFF1 /* ViewController.h */,
+				F1CFDE991B4387E200ABEFF1 /* ViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F1CFDEB91B438A9100ABEFF1 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFDEDA1B43A44F00ABEFF1 /* FriendsData.h */,
+				F1CFDEDB1B43A44F00ABEFF1 /* FriendsData.m */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		F1CFDEC01B438B1F00ABEFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFDEBA1B438B1600ABEFF1 /* FBSDKCoreKit.framework */,
+				F1CFDEBB1B438B1600ABEFF1 /* FBSDKLoginKit.framework */,
+				F1CFDEBC1B438B1600ABEFF1 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1CFDEC41B438E0700ABEFF1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFDEC51B438E2300ABEFF1 /* CoreData.h */,
+				F1CFDEC61B438E2300ABEFF1 /* CoreData.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CFDEDC1B43A44F00ABEFF1 /* FriendsData.m in Sources */,
+				F1CFDED91B43A3EA00ABEFF1 /* Friends.m in Sources */,
 				F1CFDE941B4387E200ABEFF1 /* AppDelegate.m in Sources */,
 				F1CFDE911B4387E200ABEFF1 /* main.m in Sources */,
+				F1CFDEC71B438E2300ABEFF1 /* CoreData.m in Sources */,
 				F1CFDE9A1B4387E200ABEFF1 /* ViewController.m in Sources */,
 				F1CFDE971B4387E200ABEFF1 /* FLCoreData.xcdatamodeld in Sources */,
 			);
@@ -353,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Swathi/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = FLCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Swathi/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = FLCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

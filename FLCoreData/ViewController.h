@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "FriendsData.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    NSMutableDictionary * friendCollection;
+    
+    AppDelegate * AppDel;
+    //NSMutableArray * friendsArray;
+}
 
-
+//@property (nonatomic, copy) FriendsData *aReference;
 @end
 
